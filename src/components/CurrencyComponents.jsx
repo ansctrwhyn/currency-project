@@ -48,12 +48,11 @@ export default function CurrencyComponent() {
     }
 
     const resultData = resultManipulate();
-    // console.log(resultData)
 
     return (
         <>
             <div className="container">
-                <table class="table">
+                <table className="table">
                     <thead>
                         <tr>
                             <th scope="col">Currency</th>
