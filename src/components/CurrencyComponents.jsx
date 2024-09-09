@@ -51,14 +51,14 @@ export default function CurrencyComponent() {
 
     return (
         <>
-            <div className="container">
+            <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
                 <table className="table">
                     <thead>
                         <tr>
-                            <th scope="col">Currency</th>
-                            <th scope="col">Web Buy</th>
-                            <th scope="col">Exchange Rate</th>
-                            <th scope="col">Web Sell</th>
+                            <th>CURRENCY</th>
+                            <th>WE BUY</th>
+                            <th>EXCHANGE RATE</th>
+                            <th>WE SELL</th>
                         </tr>
                     </thead>
                     <tbody>
